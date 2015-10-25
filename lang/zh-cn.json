@@ -14,12 +14,12 @@
 		"下午"
 	],
 	"Abort": "Abort",
-	"FolderNew": "请输入新文件夹名称: ",
-	"FolderRename": "请输入新文件夹名称: ",
-	"FolderDelete": "您确定要删除文件夹 \"%1\" 吗？",
-	"DestinationFolder": "目标文件夹",
-	"FilesPane": "Files pane",
-	"FoldersTree": "Folders tree",
+	"FolderNew": "请输入新目录名称: ",
+	"FolderRename": "请输入新目录名称: ",
+	"FolderDelete": "您确定要删除目录 \"%1\" 吗？",
+	"DestinationFolder": "目标目录",
+	"FilesPane": "文件面板",
+	"FoldersTree": "目录树",
 	"FileRename": "请输入新文件名: ",
 	"FileRenameExt": "如果改变文件扩展名，可能会导致文件不可用。\r\n确定要更改吗？",
 	"FileDelete": "您确定要删除文件 \"%1\" 吗?",
@@ -29,14 +29,14 @@
 		"text": "正在加载文件，请稍候..."
 	},
 	"FilesEmpty": {
-		"title": "该文件夹是空的。",
+		"title": "该目录是空的。",
 		"text": "使用 <strong>上传</strong> 按钮或 <strong>拖放</strong> 您的文件到这里来上传文件。"
 	},
 	"FilterFilesEmpty": {
 		"title": "没有找到。",
 		"text": "请尝试使用不同的搜索条件。"
 	},
-	"FilesRefresh": "Refreshing files",
+	"FilesRefresh": "刷新文件",
 	"OperationCompletedErrors": "操作完成，但有错误。",
 	"MoveToolbarButton": "移动",
 	"CopyToolbarButton": "复制",
@@ -63,10 +63,10 @@
 	"OriginalSize": "原始大小",
 	"Custom": "自定义",
 	"GettingFileData": "正在获取文件数据，请稍候...",
-	"PleaseWait": "Please wait.",
+	"PleaseWait": "请稍候。",
 	"View": "查看",
 	"Download": "下载",
-	"NewSubFolder": "创建子文件夹",
+	"NewSubFolder": "创建子目录",
 	"Rename": "重命名",
 	"Delete": "删除",
 	"DeleteFiles": "删除文件",
@@ -83,7 +83,7 @@
 	"UploadNoFolder": "需先选择一个文件。",
 	"UploadNoPerms": "无文件上传权限。",
 	"UploadUnknError": "上传文件出错。",
-	"UploadExtIncorrect": "此文件扩展名在当前文件夹中不可用。",
+	"UploadExtIncorrect": "此文件扩展名在当前目录中不可用。",
 	"UploadLabel": {
 		"UploadSelect": "选择要上传的文件",
 		"UploadProgress": "正在上传...",
@@ -115,22 +115,22 @@
 		"12": "文件类型无效。",
 		"13": "无效的连接器设置文件。",
 		"14": "无效的连接器插件： %1。",
-		"102": "无效的文件名或文件夹名称。",
+		"102": "无效的文件名或目录名称。",
 		"103": "由于作者限制，该请求不能完成。",
 		"104": "由于文件系统的限制，该请求不能完成。",
 		"105": "无效的扩展名。",
 		"109": "无效请求。",
 		"110": "未知错误。",
 		"111": "由于文件大小原因，此请求无法完成。",
-		"115": "存在重名的文件或文件夹。",
-		"116": "文件夹不存在，请刷新后再试。",
+		"115": "存在重名的文件或目录。",
+		"116": "目录不存在，请刷新后再试。",
 		"117": "文件不存在，请刷新列表后再试。",
 		"118": "目标位置与当前位置相同。",
 		"201": "文件与现有的重名，新上传的文件改名为 \"%1\"。",
 		"202": "无效的文件。",
 		"203": "无效的文件，文件尺寸太大。",
 		"204": "上传文件已损失。",
-		"205": "服务器中的上传临时文件夹无效。",
+		"205": "服务器中的上传临时目录无效。",
 		"206": "因为安全原因，上传中断。上传文件包含不能 HTML 类型数据。",
 		"207": "新上传的文件改名为 \"%1\"。",
 		"300": "移动文件失败。",
@@ -141,8 +141,8 @@
 	},
 	"ErrorMsg": {
 		"FileInvChar": "文件名不能包含以下字符：\n\\ / : * ? \" < > |",
-		"FolderInvChar": "文件夹名称不能包含以下字符：\n\\ / : * ? \" < > |",
-		"MissingFolder": "您指定的文件夹已不可用。",
+		"FolderInvChar": "目录名称不能包含以下字符：\n\\ / : * ? \" < > |",
+		"MissingFolder": "您指定的目录已不可用。",
 		"MissingFile": "请求的文件已不可用。"
 	},
 	"Fileeditor": {
@@ -205,12 +205,12 @@
 		"saveDialogTitle": "保存更改",
 		"saveDialogOverwrite": "覆盖文件",
 		"saveDialogSaveAs": "另存为：",
-		"saveDialogFileExists": "文件夹中已存在相同名称的文件。",
+		"saveDialogFileExists": "目录中已存在相同名称的文件。",
 		"reset": "重置",
 		"title": "编辑图像",
 		"save": "保存",
 		"loading": "加载图像",
-		"confirmExit": "Are you sure you want to close? You have unsaved changes to the image."
+		"confirmExit": "对图像的修改还没有保存，您确定要关闭吗？"
 	},
 	"ChooseResizedImageSizes": {
 		"small": "小",
@@ -221,50 +221,50 @@
 	},
 	"ShowMore": "更多",
 	"Shortcuts": {
-		"title": "Keyboard Shortcuts",
+		"title": "快捷键",
 		"general": {
-			"title": "General Interface",
-			"focusToolbar": "Focus toolbar",
-			"focusFoldersPane": "Focus folders pane or breadcrumbs",
-			"focusFilesPane": "Focus files pane",
-			"showContextMenu": "Open context menu",
-			"closeButton": "Close",
-			"listShortcuts": "Open this help dialog",
-			"action": "Execute default action",
-			"focusNext": "Focus next pane",
-			"previousItem": "Go to previous item",
-			"nextItem": "Go to next item",
-			"firstItem": "Go to first item",
-			"lastItem": "Go to last item"
+			"title": "通用",
+			"focusToolbar": "激活工具栏",
+			"focusFoldersPane": "激活目录面板",
+			"focusFilesPane": "激活文件面板",
+			"showContextMenu": "打开快捷菜单",
+			"closeButton": "关闭",
+			"listShortcuts": "打开此帮助对话框",
+			"action": "执行默认操作",
+			"focusNext": "激活下一面板",
+			"previousItem": "转回上一项",
+			"nextItem": "转到下一项",
+			"firstItem": "转到第一项",
+			"lastItem": "转到最后项"
 		},
 		"files": {
-			"title": "Files Pane",
-			"delete": "Delete file(s)",
-			"rename": "Rename file",
-			"selectAll": "Select all files",
-			"upload": "Upload file(s)",
-			"refresh": "Refresh files",
-			"addToSelectionLeft": "Add or remove file on the left to selection",
+			"title": "文件面板",
+			"delete": "删除文件",
+			"rename": "重命名文件",
+			"selectAll": "选择所有文件",
+			"upload": "上传文件",
+			"refresh": "刷新文件",
+			"addToSelectionLeft": "Add or remove file on the left to selection", // 没有 demo 不知这几个要怎么翻译
 			"addToSelectionRight": "Add or remove file on the right to selection",
 			"addToSelectionAbove": "Add or remove files above to selection",
 			"addToSelectionBelow": "Add or remove files below to selection"
 		},
 		"folders": {
-			"title": "Folders Pane",
-			"delete": "Delete folder",
-			"rename": "Rename folder",
-			"expandOrSubfolder": "Expand folder / Go to first subfolder",
-			"collapseOrParent": "Collapse folder / Go to parent folder"
+			"title": "目录面板",
+			"delete": "删除目录",
+			"rename": "重命名目录",
+			"expandOrSubfolder": "展开目录 / 转到第一个子目录",
+			"collapseOrParent": "折叠目录 / 转到上级目录"
 		},
 		"keys": {
 			"ctrl": "Control",
-			"delete": "Delete",
-			"downArrow": "Down arrow",
+			"delete": "删除",
+			"downArrow": "下箭头",
 			"escape": "Escape",
-			"leftArrow": "Left arrow",
-			"question": "Question mark",
-			"rightArrow": "Right arrow",
-			"upArrow": "Up arrow"
+			"leftArrow": "左箭头",
+			"question": "问号",
+			"rightArrow": "右箭头",
+			"upArrow": "上箭头"
 		},
 		"keysAbbreviations": {
 			"alt": "alt",
@@ -276,8 +276,8 @@
 		}
 	},
 	"Operations": {
-		"renameFolder": "Rename Folder",
-		"copyFiles": "Copy Files",
-		"moveFiles": "Move Files"
+		"renameFolder": "重命名目录",
+		"copyFiles": "复制文件",
+		"moveFiles": "移动文件"
 	}
 }
